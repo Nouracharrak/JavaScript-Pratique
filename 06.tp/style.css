@@ -1,0 +1,38 @@
+
+body {
+    text-align: center; /* Centre tout le contenu dans le body */
+}
+.btn-container {
+    display: flex; /* Utilise un flexbox pour centrer les boutons */
+    justify-content: center; /* Centre horizontalement */
+    margin-bottom: 20px; /* Espace sous les boutons */
+}
+button {
+    background-color: #cc7676; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Espace interne */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur en forme de main */
+    margin: 10px; /* Marge autour des boutons */
+    box-shadow:-7px 15px 17px -3px rgba(170,42,19,0.48);
+    transition: transform 0.2s; /* Transition pour l'effet de survol */
+}
+
+button:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+}
+.calculatrice{
+    background-image: url(
+        https://i.pinimg.com/originals/2a/b0/26/2ab0269e20645358cf456e47634ebd40.jpg
+    );
+    margin: 20px;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #cc7676;
+}

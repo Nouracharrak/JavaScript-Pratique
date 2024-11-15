@@ -1,0 +1,23 @@
+div{
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.bleu{
+    background-color: blue;
+}
+.rouge{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.rose{
+    background-color: pink;
+}
+.violet{
+    background-color: violet;
+}
+.gris{
+    background-color: gray;
+}
